@@ -44,6 +44,4 @@ A few things it taught me:
 
 TypeScript · Python · C++ · React · Next.js · React Native / Expo · Supabase / PostgreSQL · pgvector · RAG · Whisper · Vercel · Cloudflare
 
-JEE Advanced 2024 AIR 10276 · 400+ LeetCode problems · PEC Coding Club (ACM)
-
 [LinkedIn](https://www.linkedin.com/in/pulkit-sachdeva-13a932393/)
