@@ -40,6 +40,12 @@ A few things it taught me:
 - **Humans approve what AI proposes.** Assignments and marks reach students only after a teacher signs off.
 - **Measure models before trusting them.** We compared speech-to-text providers on real cost per hour, speed and accuracy before choosing one.
 
+## Projects
+
+- **[hinglish-asr-bench](https://github.com/pulkitsachdeva508-ops/hinglish-asr-bench)**: a speech-to-text benchmark for Hindi and Hinglish. WER and CER written from scratch, Devanagari normalisation, and which script a model answers in. On FLEURS Hindi, Whisper large-v3-turbo reaches 29.5% WER, while tiny and base mostly reply in Latin or Urdu script.
+- **[postgres-pipeline-template](https://github.com/pulkitsachdeva508-ops/postgres-pipeline-template)**: background jobs where Postgres is the state machine. Leases, `SKIP LOCKED`, retries with backoff and row-level security, with concurrency tested on a real Postgres server.
+- **[class-notes-rag](https://github.com/pulkitsachdeva508-ops/class-notes-rag)**: ask your course notes. Next.js and pgvector, retrieval scoped to one course, citations checked in code, and it says "not in the notes" instead of guessing.
+
 ## Stack
 
 TypeScript · Python · C++ · React · Next.js · React Native / Expo · Supabase / PostgreSQL · pgvector · RAG · Whisper · Vercel · Cloudflare
